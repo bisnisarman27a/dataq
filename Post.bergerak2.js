@@ -25,7 +25,7 @@ function rpthumbnt(json) {
    } else thumburl = 'http://lh3.ggpht.com/_xcD4JK_dIjU/SnamIh0KTCI/AAAAAAAADMA/hLjqmEbdtkw/d/noimagethumb.gif'
   }
   document.write('<li class="news-title clearfix">');
-  document.write('<a href="http://grosirtanahabang27.blogspot.co.id//" target="_blank"><img src="' + thumburl + '"/></a>');
+  document.write('<a href="http://grosirtanahabang27.blogspot.co.id/" target="_blank"><img src="' + thumburl + '"/></a>');
   document.write('<a href="' + posturl + '" target ="_top">' + posttitle + '</a><br>');
   if ("content" in entry) {
    var postcontent = entry.content.$t
